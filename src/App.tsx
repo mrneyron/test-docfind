@@ -7,7 +7,6 @@ import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
 
 const darkTheme = createTheme({
   palette: {
-    //mode: 'dark',
     info: {
       main: '#444',
     },
@@ -43,7 +42,6 @@ const App = () => {
           <CssBaseline />
           <Main />
         </LocalizationProvider>
-        
       </ThemeProvider>
     </div>
   );
