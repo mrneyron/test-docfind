@@ -1,7 +1,4 @@
 export const resultListUrl = "https://63243de9bb2321cba927d530.mockapi.io/docs";
-//export const resultListUrl = "https://63243de9bb2321cba927d530.mockapi.io/docs/list/$mockData";
-export const resultCountUrl = "https://63243de9bb2321cba927d530.mockapi.io/docs/list/$count";
-
 export interface ResultState {
   result: ResultDate[];
   loading: boolean;
